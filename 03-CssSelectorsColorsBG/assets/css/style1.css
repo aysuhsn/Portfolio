@@ -1,0 +1,13 @@
+body{
+    background-image: url('./images/gul.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-attachment: local;
+    text-align: center;
+    color: yellow;
+}
+.text1{
+    line-height: 1.5;
+}
+

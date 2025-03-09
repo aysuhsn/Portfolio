@@ -1,0 +1,80 @@
+p {
+    color: blue;
+}
+
+#xüsusi-paraqraf {
+    font-weight: bold;
+}
+
+.qırmızı-metin {
+    color: red;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+div > p {
+    background-color: yellow;
+}
+
+section p {
+    font-style: italic;
+}
+
+h2 + p {
+    text-decoration: underline;
+}
+
+h3 ~ p {
+    color: green;
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+a[href*="w3schools"] {
+    color: aqua;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+p:nth-of-type(2) {
+    color: purple;
+}
+
+span:only-child {
+    text-transform: uppercase;
+}
+
+h1:only-of-type {
+    text-align: center;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    outline: 2px solid red;
+}
+
+input:disabled {
+    background-color: gray;
+}
+
+h1::before {
+    content: "★ ";
+    color: gold;
+}

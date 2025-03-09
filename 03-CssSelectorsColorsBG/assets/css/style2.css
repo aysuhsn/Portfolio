@@ -1,0 +1,17 @@
+body{
+    height: 200vh;
+    overflow-y: scroll;
+}
+
+.text2{
+    width: 90%;
+    max-height: 400px;
+    padding: 20px;
+    border: 10px solid black;
+    background-image: url('./images/yarpaq.jpg');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: scroll;
+    overflow: auto;
+}

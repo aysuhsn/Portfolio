@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Selektorlar</title>
+</head>
+<body>
+    <!--1. Element selektoru - Bütün <p> elementlərinin mətn rəngini mavi edir
+        2. ID selektoru - ID-si "xüsusi-paraqraf" olan elementin mətnini qalın edir
+        3. Class selektoru - "qırmızı-metin" sinfinə aid elementlərin mətn rəngini qırmızı edir
+        4. Universal selektor - Bütün elementlər üçün şrift ailəsini Arial edir 
+        5. Child selektoru - Birbaşa <div> içindəki <p> elementlərinin arxa fonunu sarı edir
+        6. Descendant selektoru - <section> içində olan bütün <p> elementlərini italic edir
+        7. Adjacent sibling selektoru - <h2>-dən dərhal sonra gələn <p> elementini altı xətli edir
+        8. General sibling selektoru - <h3>-dən sonra gələn bütün <p> elementlərini yaşıl edir
+        9. Attribute selektoru - type="text" olan bütün input-ların haşiyəsini mavi edir
+        10. Attribute contains selektoru - Linkin href dəyərində "google" sözü varsa onu narıncı edir 
+        11. First-child selektoru - İlk <li> elementini qalın edir
+        12. Last-child selektoru - Sonuncu <li> elementini italic edir
+        13. nth-child selektoru - Tək nömrəli <li> elementlərinin arxa fonunu boz edir
+        14. nth-of-type selektoru - İkinci <p> elementinin mətn rəngini bənövşəyi edir
+        15. Only-child selektoru - Yeganə uşaq elementi olan <span>-ın mətnini böyük hərflə göstərir 
+        16. Only-of-type selektoru - Yeganə <h4> elementini ortalayır
+        17. Hover selektoru - <button> üzərinə gələndə arxa fonunu açıq mavi edir
+        18. Focus selektoru - Fokuslanan input elementinin haşiyəsini qırmızı edir
+        19. Disabled selektoru - Disabled input elementinin arxa fonunu boz edir
+        20. Before pseudo-elementi - <h1> elementindən əvvəl qızıl rəngdə ulduz əlavə edir-->
+    <h1>CSS Selektorlar</h1>
+    <h2>Başlıq 1</h2>
+    <p>Bu bir paraqrafdır.</p>
+    <p id="xüsusi-paraqraf">Bu xüsusi ID-si olan bir paraqrafdır.</p>
+    <p class="qırmızı-metin">Bu qırmızı rəngdə olan bir paraqrafdır.</p>
+    <div>
+        <p>Bu div içindəki bir paraqrafdır.</p>
+    </div>
+    <section>
+        <p>Bu section içində olan bir paraqrafdır.</p>
+    </section>
+    <h3>Başlıq 2</h3>
+    <p>Bu bir başqa paraqrafdır.</p>
+    <ul>
+        <li>Birinci element</li>
+        <li>İkinci element</li>
+        <li>Üçüncü element</li>
+    </ul>
+    <a href="https://www.w3schools.com/css/css_selectors.asp">Link</a>
+    <input type="text" required placeholder="Mətn daxil edin">
+    <input type="text" disabled placeholder="Bağlı input">
+    <button type="submit">Göndər</button>
+</body>
+</html>
