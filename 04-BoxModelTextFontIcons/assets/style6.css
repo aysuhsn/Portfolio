@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.box {
+    width: 250px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+    font-weight: bold;
+}
+
+.full-gradient {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, green, cyan);
+    border-image-slice: 1;
+}
+
+.horizontal-gradient {
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-image-source: linear-gradient(to right, green, cyan);
+    border-image-slice: 1;
+}
+
+.vertical-gradient {
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-image-source: linear-gradient(to bottom, green, cyan);
+    border-image-slice: 1;
+}
+
+.rounded-gradient {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, green, cyan);
+    border-image-slice: 1;
+    border-radius: 15px;
+}

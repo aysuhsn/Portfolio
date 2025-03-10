@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f0e9;
+}
+
+.container {
+    width: 600px;
+    background: #fff;
+    padding: 40px;
+    margin: 100px auto;
+    text-align: center;
+    border-bottom: 10px solid #c8a273;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Times New Roman', serif;
+    color: #a66a2c;
+    margin-top: -10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    color: black;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Cursive', sans-serif;
+    color: #a66a2c;
+    margin-top: 10px;
+}
