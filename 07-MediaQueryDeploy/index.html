@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/svg-with-js.min.css" integrity="sha512-vtbctC7BecZMHWPWej78RfcB9RmGpIx+G4+1IT2/Z9P7SIXApaI1XLOCrzpSKgNyTiw1VCmg/EkJXGo+LJYcpw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/v4-font-face.min.css" integrity="sha512-nzYdV58RidllZqhgtA0a+ghpP5e8Qq3oNNBXNp+ShDoU0FUxwRmEjQzsL72SShhjX2dcLeqpyZ/MDW43hWHo4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/brands.min.js" integrity="sha512-ILOQokRQNF0S8SKV6fnaLNj02CmZnDWmYUr3zlH4jwToep0lWc7twuTzF+Mm0cKPdszi0xe8KymVi2y7mAweVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/brands.min.js" integrity="sha512-ILOQokRQNF0S8SKV6fnaLNj02CmZnDWmYUr3zlH4jwToep0lWc7twuTzF+Mm0cKPdszi0xe8KymVi2y7mAweVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/fontawesome.min.js" integrity="sha512-j12pXc2gXZL/JZw5Mhi6LC7lkiXL0e2h+9ZWpqhniz0DkDrO01VNlBrG3LkPBn6DgG2b8CDjzJT+lxfocsS1Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/v4-shims.min.js" integrity="sha512-Ny27nj/CA4kOUa/2b2bhjr8YiJ+OfttH2314Wg8drWh4z9JqGO1PVEqPvo/kM+PjN5UEY4gFxo+ADkhXoGiaSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 <body>
     <!-- Header start -->
@@ -26,13 +31,28 @@
                     <li><a href="#">Men's</a></li>
                     <li><a href="#">Women's</a></li>
                     <li><a href="#">Kid's</a></li>
-                    <li class="dropdown">
+                <!-- Pages menyusu -->
+                    <li class="submenu">
                         <a href="#">Pages <span class="arrow">&#9662;</span></a>
-                    </li>
-                    <li class="dropdown">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Single Product</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>  
+                    </li> 
+                    <!-- Features menyusu -->
+                    <li class="submenu">
                         <a href="#">Features<span class="arrow">&#9662;</span></a>
+                        <ul>
+                            <li><a href="#">Features Page 1</a></li>
+                            <li><a href="#">Features Page 2</a></li>
+                            <li><a href="#">Features Page 3</a></li>
+                            <li><a href="#">Template Page 4</a></li>
+                        </ul>
                     </li>
                     <li><a href="#">Explore</a></li>
+                    
                 </ul>
             </nav>
         </div>
@@ -52,10 +72,15 @@
                     <a href="#" class="btn">Purchase Now!</a>
                 </div>
             </section>
-    
+            
             <section id="categories">
                 <div class="category">
                     <img src="assets/images/baner-right.png" alt="Women Fashion">
+                    <div class="overlay">
+                        <h3>Women</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit incid.</p>
+                        <a href="#" class="btn">Discover More</a>
+                    </div>
                     <div class="category-content">
                         <h2>Women</h2>
                         <p>Best Clothes For Women</p>
@@ -64,6 +89,11 @@
             
                 <div class="category">
                     <img src="assets/images/men.png" alt="Men Fashion">
+                    <div class="overlay">
+                        <h3>Men</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit incid.</p>
+                        <a href="#" class="btn">Discover More</a>
+                    </div>
                     <div class="category-content">
                         <h2>Men</h2>
                         <p>Best Clothes For Men</p>
@@ -72,6 +102,11 @@
             
                 <div class="category">
                     <img src="assets/images/right.png" alt="Kids Fashion">
+                    <div class="overlay">
+                        <h3>Kids</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit incid.</p>
+                        <a href="#" class="btn">Discover More</a>
+                    </div>
                     <div class="category-content">
                         <h2>Kids</h2>
                         <p>Best Clothes For Kids</p>
@@ -80,6 +115,11 @@
             
                 <div class="category">
                     <img src="assets/images/image.png" alt="Accessories Fashion">
+                    <div class="overlay">
+                        <h3>Accessories</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit incid.</p>
+                        <a href="#" class="btn">Discover More</a>
+                    </div>
                     <div class="category-content">
                         <h2>Accessories</h2>
                         <p>Best Trend For Accessories</p>
@@ -88,7 +128,7 @@
             </section>
             
         </div>
-
+        <!--Women Latest-->
         <section id="women-products">
             <div class="product-container">
                 <h3>Women's Latest</h3>
@@ -142,11 +182,11 @@
             </div>
 
         </section>
-
+        <!-- Explore Our Products -->
         <section class="explore-products">
             <div class="explore-content">
                 <h2>Explore Our Products</h2>
-            <p>You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.</p>
+                <p>You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.</p>
             <blockquote class="icons">
                 <i class="fas fa-quote-left"></i>
                 <em>You are not allowed to redistribute this template ZIP file on any other website.</em>
@@ -175,9 +215,10 @@
         </section>
 
 
-    
+        <!-- By Subscribing To Our Newsletter You Can Get 30% Off -->
         <section class="newsletter">
-            <div class="subscribe-container"><h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+            <div class="subscribe-container">
+                <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
                 <p class="description">Details to details is what makes Hexashop different from the other themes.</p>
                 <form class="subscription-form">
                     <input type="text" placeholder="Your Name" required>
@@ -234,12 +275,17 @@
                         <p><a href="#">Shlping</a></p>
                         <p><a href="#">Tracking ID</a></p>
                     </div>
-                </div> <hr>
-
-                <div class="footer-bottom">
-                    <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.</p>
-                    <p>Design: <a href="https://templatemo.com/">TemplateMo</a></p>
-                    <p>Distributed By: <a href="https://themewagon.com/">ThemeWagon</a></p>
+                </div> 
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.</p>
+                <p>Design: <a href="https://templatemo.com/">TemplateMo</a></p>
+                <p>Distributed By: <a href="https://themewagon.com/">ThemeWagon</a></p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-facebook-f fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-linkedin-in fa-2xl"></i>
+                    <i class="fa-brands fa-behance fa-2xl"></i>
                 </div>
             </div>
         </footer>
