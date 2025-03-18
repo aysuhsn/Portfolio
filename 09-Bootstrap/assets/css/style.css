@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#project{
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+}
+
+#Testimonials{
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background-color: #6A4D8A;
+}
+#news{
+    background-color: #222F36;
+    background-size: cover;
+}
+#news .row .btn1{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#team{
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+}
