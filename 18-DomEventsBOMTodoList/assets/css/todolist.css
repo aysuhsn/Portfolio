@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  .todo {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .todo.completed {
+    background-color: rgb(111, 247, 111);
+    text-decoration: line-through;
+  }
+  .todo.pending {
+    background-color: rgb(255, 82, 82);
+  }
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
