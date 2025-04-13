@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+  }
+  
+ .register_area {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  
+ .register {
+    width: 400px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient( rgb(255, 255, 104), rgb(88, 255, 111));
+ }
+  
+ .title {
+    text-align: center;
+ }
+  
+ .submit {
+    width: 100%;
+    background-color: rgb(0, 116, 6);
+ }
+ .submit:hover {
+    background-color: rgb(0, 182, 9);
+ }
