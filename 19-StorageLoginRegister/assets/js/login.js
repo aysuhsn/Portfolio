@@ -54,9 +54,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     localStorage.removeItem(lockoutKey);
     localStorage.setItem("loggedInUser", JSON.stringify(matchedUser));
     showToast("Giris ugurla tamamlandi!", "success");
-  
-    document.querySelector("#settings-icon").style.display = "block";
-  
+    
     setTimeout(() => {
       window.location.href = "index.html";
     }, 1500);
