@@ -1,0 +1,7 @@
+li{
+    cursor: pointer;
+    color: white;
+}
+ul li:hover{
+    color: #FED136;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+.right{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+.icon{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.twitter:hover{
+    color: #252424;
+    cursor: pointer;
+}
+.facebook:hover{
+    color: #252424;
+    cursor: pointer;
+}
+.linkedin:hover{
+    color: #252424;
+    cursor: pointer;
+}

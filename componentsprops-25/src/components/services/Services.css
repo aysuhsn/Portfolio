@@ -1,0 +1,36 @@
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 7rem;
+}
+.services-text{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.services h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
+}
+.services .services-name{
+    font-size: 1.2rem;
+    color: #505050;
+    font-style: italic;
+}
+
+.services-icon{
+    width: 3rem;
+    height: 3rem;
+    font-size: 5rem;
+    color: #F4CA16;
+}
+.services-text{
+    display: flex;
+    gap: 1rem;
+    line-height: 2rem;
+    font-size: large;
+}
