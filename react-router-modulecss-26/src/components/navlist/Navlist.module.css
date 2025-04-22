@@ -1,0 +1,15 @@
+.navlist{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    cursor: pointer;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    color: #8D8F91;
+}
+.navlist li a:hover{
+    color: white;
+}

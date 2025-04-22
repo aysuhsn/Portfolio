@@ -1,0 +1,21 @@
+.customers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5rem;
+}
+
+.customers h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.customers p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.customerstext{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+}

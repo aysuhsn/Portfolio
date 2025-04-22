@@ -1,0 +1,27 @@
+.titles{
+    display: flex;
+    margin: 6rem 4rem 2rem 5rem;
+    height: 20rem;
+    align-items: center;
+    line-height: 3.5rem;
+}
+.titles h2 {
+    color: black;
+  }
+  
+  .titles p {
+    line-height: 1.7rem;
+    color: #212529;
+    font-size: 1.1rem;
+  }
+
+  .titles a{
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  .titles a:hover{
+    color: #29b0ff ;
+  }

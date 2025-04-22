@@ -1,0 +1,35 @@
+.touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+input{
+    width: 50rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+textarea{
+    width: 50rem;
+    height: 10rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+button{
+    width: 50rem;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #5F9EFB;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #78aeec;
+}
