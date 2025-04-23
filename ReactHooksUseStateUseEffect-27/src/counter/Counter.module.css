@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.counter_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6dd2fa, #2970f5, #8129f3);
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  width: 30rem;
+  padding: 3rem 4rem;
+  border-radius: 1rem;
+}
+h1{
+  font-size: 2.8rem;
+}
+.counter_value{
+  font-size: 4rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin: 2rem 0;
+}
+.counter_buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
+}
+.minus{
+  background-color: #2e7ef7;
+  color: white;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.plus{
+  background-color: #621dd1;
+  color: white;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.step_input{
+  width: 100%;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  border: 2px solid #ccc;
+  border-radius: 1rem;
+  text-align: center;
+}
+.counter_btns{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.plus_btn{
+  background-color: #2e7ef7;
+  color: white;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.minus_btn{
+  background-color: #621dd1;
+  color: white;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+/* .counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  }
+  
+  .counter-box {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .counter-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .counter-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .counter-btn {
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .minus {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .plus {
+    background-color: #1dd1a1;
+    color: white;
+  }
+  
+  .custom-plus {
+    background-color: #54a0ff;
+    color: white;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .custom-minus {
+    background-color: #feca57;
+    color: white;
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .step-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transition: border 0.3s;
+  }
+  
+  .step-input:focus {
+    border-color: #54a0ff;
+    outline: none;
+  }
+   */
