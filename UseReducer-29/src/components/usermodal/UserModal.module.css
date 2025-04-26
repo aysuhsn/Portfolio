@@ -17,5 +17,10 @@
     min-width: 300px;
   }
 
+  form{
+    display: flex;
+    gap: 1rem;
+  }
+
   
   

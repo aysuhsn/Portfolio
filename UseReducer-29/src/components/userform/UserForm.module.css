@@ -12,7 +12,8 @@ input{
 }
 
 button{
-    width: 5rem;
+    width: fit-content;
+    padding: 0 1.6rem;
     height: 2.5rem;
     background-color: rgb(151, 216, 157);
     border: none;
