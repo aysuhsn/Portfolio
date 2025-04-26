@@ -35,7 +35,7 @@ const UserModal = ({ isOpen, onClose, onUpdate, user }) => {
             value={surname}
             onChange={(e) => setSurname(e.target.value)}
           />
-          <button type="submit">Remember</button>
+          <button type="submit">Edit</button>
           <button type="button" onClick={onClose}>Close it</button>
         </form>
       </div>
