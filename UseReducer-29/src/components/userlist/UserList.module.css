@@ -1,0 +1,29 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    width: 36rem;
+    display: flex;
+    gap: 1rem;
+    background: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: bisque;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  .btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+
+  

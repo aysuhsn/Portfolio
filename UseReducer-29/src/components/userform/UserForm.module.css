@@ -1,0 +1,28 @@
+.form{
+    display: flex;
+    gap: 1rem;
+}
+input{
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: bisque;
+}
+
+button{
+    width: 5rem;
+    height: 2.5rem;
+    background-color: rgb(151, 216, 157);
+    border: none;
+    font-size: 1rem;
+    color: rgb(22, 61, 22);
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(118, 156, 122);
+}
+
