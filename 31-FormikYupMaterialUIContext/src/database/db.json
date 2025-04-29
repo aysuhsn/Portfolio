@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "3780",
+      "name": "Aysu",
+      "username": "Aysu12",
+      "email": "aysu@gmail.com",
+      "password": "12",
+      "confirmpassword": "12"
+    },
+    {
+      "id": "e063",
+      "name": "Aysu",
+      "username": "Aysu12",
+      "email": "aysu@gmail.com",
+      "password": "Aysu@123",
+      "confirmpassword": "Aysu@123",
+      "isLogined": false
+    }
+  ]
+}
