@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "4356",
+      "name": "Aysu",
+      "username": "Aysu12",
+      "email": "aysu@gmail.com",
+      "password": "Aysu@123",
+      "confirmpassword": "Aysu@123",
+      "isLogined": true
+    }
+  ]
+}
