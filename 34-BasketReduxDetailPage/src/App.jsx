@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import Home from "./pages/Home";
 import Wishlist from "./pages/Wishlist";
+import Basket from "./pages/Basket";
 
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
         {
           path: "/wishlist",
           element: <Wishlist />,
+        },
+        {
+          path: "/basket",
+          element: <Basket />,
         },
       ],
     },
