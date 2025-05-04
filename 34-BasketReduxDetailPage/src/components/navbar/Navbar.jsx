@@ -3,8 +3,8 @@ import Navlist from '../navlist/Navlist'
 
 const Navbar = () => {
   return (
-    <div className='container'  style={{display:"flex", alignItems:'center', justifyContent:'space-between', padding:'1rem'}}>
-      <h1>Logo</h1>
+    <div className='container'  style={{display:"flex", alignItems:'center', justifyContent:'space-between', padding:'0.5rem'}}>
+      <h2>Logo</h2>
       <Navlist/>
     </div>
   )

@@ -3,8 +3,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import Home from "./pages/Home";
 import Wishlist from "./pages/Wishlist";
-import Basket from "./pages/Basket";
-
+import Basket from "./pages/basket/Basket";
+import DetailPage from "./pages/detailpage/DetailPage";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const router = createBrowserRouter([
@@ -24,12 +26,28 @@ function App() {
           path: "/basket",
           element: <Basket />,
         },
+        {
+          path: "/detailpage/:id",
+          element: <DetailPage />,
+        },
       ],
     },
   ]);
   return (
     <>
       <RouterProvider router={router} />
+      <ToastContainer
+        position="top-right"
+        autoClose={1000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </>
   );
 }

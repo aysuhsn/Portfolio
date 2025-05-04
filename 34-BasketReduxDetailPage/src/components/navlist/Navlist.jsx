@@ -4,8 +4,11 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const Navlist = () => {
+  const { wishlist } = useSelector((state) => state.wishlist);
+  const { products } = useSelector((state) => state.basket);
 
-  const {wishlist} = useSelector((state) => state.wishlist)
+  let basketCount = products.reduce((sum, product) => sum + product.count, 0);
+
   return (
     <ul
       style={{
@@ -32,14 +35,16 @@ const Navlist = () => {
         <FaHeart
           style={{ cursor: "pointer", fontSize: "1.5rem", color: "white" }}
         />
-        <sup style={{ fontSize: "1.3rem", color: "white" }}>{wishlist.length}</sup>
+        <sup style={{ fontSize: "1.3rem", color: "white" }}>
+          {wishlist.length}
+        </sup>
       </Link>
 
       <Link to={"/basket"}>
         <FaShoppingBag
           style={{ cursor: "pointer", fontSize: "1.5rem", color: "white" }}
         />
-        <sup style={{ fontSize: "1.3rem", color: "white" }}>0</sup>
+        <sup style={{ fontSize: "1.3rem", color: "white" }}>{basketCount}</sup>
       </Link>
     </ul>
   );
