@@ -1,0 +1,43 @@
+.count-area{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 2rem;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.count{
+  font-size: 25px;
+  color: #2D3748;
+  margin: 0;
+}
+
+.total{
+  text-align: right;
+  font-size: 2rem;
+  color: rgb(3, 3, 44);
+  font-weight: bold;
+}
+
+.minus-btn, .plus-btn{
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #2D3748;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+.minus-btn:hover, .plus-btn:hover{
+  background-color: #4a5569;
+}
+.minus-btn:disabled{
+  cursor: not-allowed;
+}

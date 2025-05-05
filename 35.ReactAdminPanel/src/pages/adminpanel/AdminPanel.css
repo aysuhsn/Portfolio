@@ -1,0 +1,12 @@
+.remove-buttons{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+}
+.create-btn{
+  margin-bottom: 1rem;
+  padding: 0.5rem 2rem;
+}
